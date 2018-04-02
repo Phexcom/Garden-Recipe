@@ -66,6 +66,8 @@ or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 Acknowledgement
 ***************
 
-Ogheneovie Ralph Otutu
-Khawar Mohammed
-Fatima
+- Ogheneovie Ralph Otutu
+
+- Khawar Mohammed
+
+- Fatima

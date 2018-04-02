@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Garden Recipe Email Verification</title>
+	<style type="text/css">
+		body{
+			font-family: ubuntu;
+			background-color: white;
+			color: gray;
+    		text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h2>Hello '.$user->getFirstname().' </h2><p>Your registeration request was recieved Below is your activation link.</p><br><br>
+
+	<p>Click the link below to activate your account.</p><p>
+		<pre><a href="'.$link.'">Activate Account</a></pre>
+
+	</p>
+
+	<br><br><p>After Activation you will be able to login with your account Username: '.$user->getFirstname().' with the password you created</p>
+	<br><br><br>
+	<h1>	Thank you for Registering on Garden Recipe</h1>
+</body>
+</html>
